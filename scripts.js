@@ -30,9 +30,7 @@ request.onload = function () {
         beer.description = beer.description.substring(0, 300);
         p.textContent = `${beer.description}...`;
             
-       // const h5 = document.createElement('h5');
-       // h5.textContent = `${job.url}...`;    */
-            
+        
         container1.appendChild(card);
         card.appendChild(h1);
         card.appendChild(p);
