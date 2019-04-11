@@ -26,25 +26,17 @@ request.onload = function () {
         h1.textContent = beer.name;
             
         // render relevant data: beer description in an <p> tag     
-        const h1 = document.createElement('h1');
-        h1.textContent = beer.name;
-            
-                
-        
-            
         const p = document.createElement('p');
-        job.description = job.description.substring(0, 300);
-        p.textContent = `${job.description}...`;
+        beer.description = beer.description.substring(0, 300);
+        p.textContent = `${beer.description}...`;
             
-        const h5 = document.createElement('h5');
-        h5.textContent = `${job.url}...`;    */
+       // const h5 = document.createElement('h5');
+       // h5.textContent = `${job.url}...`;    */
             
         container1.appendChild(card);
         card.appendChild(h1);
-       /* card.appendChild(h3);    
-        card.appendChild(h4);      
         card.appendChild(p);
-        card.appendChild(h5);  */
+     
          });
 
   // ERROR HANDLING
