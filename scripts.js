@@ -21,15 +21,16 @@ request.onload = function () {
         const card = document.createElement('div');
         card.setAttribute('class', 'card');
 
-      // render relevant data: beer name      
+        // render relevant data: beer name in an <h1> tag     
         const h1 = document.createElement('h1');
         h1.textContent = beer.name;
             
-        /*const h3 = document.createElement('h3');
-        h3.textContent = job.type;
+        // render relevant data: beer description in an <p> tag     
+        const h1 = document.createElement('h1');
+        h1.textContent = beer.name;
             
-        const h4 = document.createElement('h4');
-        h4.textContent = job.location;   
+                
+        
             
         const p = document.createElement('p');
         job.description = job.description.substring(0, 300);
