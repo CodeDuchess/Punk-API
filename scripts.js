@@ -4,6 +4,10 @@
 
 //var apiData="";
 const app = document.getElementById('root');
+// photo of beer
+const beerPhoto = document.createElement('img')
+beerPhoto.src = 'brewdog-logo.png'
+
 const container1 = document.createElement('div');
 container1.setAttribute('class', 'container1');
 app.appendChild(container1);
