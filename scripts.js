@@ -9,10 +9,10 @@ const app = document.getElementById('card-body');
 const logo = document.createElement('img')
 logo.src = 'brewdog-logo.png'
 
-const container = document.createElement('div')
-container.setAttribute('class', 'container')
+//const container = document.createElement('div')
+//container.setAttribute('class', 'container')
 app.appendChild(logo)
-app.appendChild(container)
+//app.appendChild(container)
 
 const container1 = document.createElement('div');
 container1.setAttribute('class', 'container1');
