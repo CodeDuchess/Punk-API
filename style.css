@@ -19,11 +19,13 @@
       height: 42px;
       border-radius: 5px;
       outline: none;
-      color: #40bce0; 
+      /* color is maroon shade */  
+      color: #6b0413; 
       }
 
     .searchTerm:focus{
-      color: #00B4CC;
+      /* color is maroon shade */  
+      color: #6b0413;
       }
 
     .searchButton {
