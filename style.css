@@ -136,6 +136,7 @@
       }
 
     .card {
+      display: relative;  
       margin: 1rem;
       background: #333333;
       box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
