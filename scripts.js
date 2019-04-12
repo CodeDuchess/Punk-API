@@ -28,8 +28,8 @@ request.onload = function () {
     var apiData = JSON.parse(this.response);
     if (request.status >= 200 && request.status < 400) {
         apiData.forEach(beer => {
-        const card = document.createElement('div');
-        card.setAttribute('class', 'card');
+        const card mb-3 = document.createElement('div');
+        card.setAttribute('class', 'card mb-3');
 
         // render relevant data: beer name in an <h3> tag     
         const h3 = document.createElement('h3');
@@ -41,7 +41,7 @@ request.onload = function () {
         p.textContent = `${beer.description}...`;
             
         
-        container1.appendChild(card);
+        container1.appendChild(card mb-3);
         card.appendChild(h3);
         card.appendChild(p);
      
