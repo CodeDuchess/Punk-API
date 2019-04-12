@@ -131,6 +131,7 @@
 
     .container1{
       display: relative;  
+      top: 40px;  
       flex-wrap: wrap;
       padding: 20px;
       }
