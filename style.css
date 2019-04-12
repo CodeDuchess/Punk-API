@@ -130,7 +130,7 @@
       }
 
     .container1{
-      display: relative;  
+      position: relative;  
       top: 40px;  
       flex-wrap: wrap;
       padding: 20px;
