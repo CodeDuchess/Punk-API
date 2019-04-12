@@ -9,6 +9,7 @@
     .search {
       width: 100%;
       position: relative;
+      top: 200px;  
       }
 
     .searchTerm {
