@@ -165,7 +165,8 @@
      }
 
     .card:nth-child(2n) h1 {
-      background-color: #99502c;
+      /* this shade is a medium blue */  
+      background-color: #5572a0;
       /* this shade is white smoke */
       color: #F5F5F5 ;
      }
