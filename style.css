@@ -149,19 +149,21 @@
       transform: translate3D(0, -2px, 0);
      }
 
+    /* Use media screen for responsive web design on desktops, laptops, tablets, and mobile phones */
     @media screen and (min-width: 600px) {
       .card {
         flex: 1 1 calc(50% - 2rem);
         border-radius: 20px;
-        padding: 35px;
+        padding: 15px;
         }
      }
 
+     /* Use media screen for responsive web design on desktops, laptops, tablets, and mobile phones */
     @media screen and (min-width: 900px) {
       .card {
         flex: 1 1 calc(33% - 2rem);
         border-radius: 20px;
-        padding: 35px;
+        padding: 15px;
          }
      }
 
