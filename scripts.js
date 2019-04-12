@@ -29,7 +29,7 @@ request.onload = function () {
         p.textContent = `${beer.description}...`;
             
         const h4 = document.createElement('h4');
-        h4.textContent = beer.image_url;   
+        h4.textContent = beer.tagline;   
             
         container1.appendChild(card);
         card.appendChild(h1);
