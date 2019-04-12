@@ -47,7 +47,7 @@ request.onload = function () {
 }
 
 
-// FILTER BY JOB TITLE
+// FILTER BY BEER NAME
 var button1 = document.getElementById("keywordSearchButton");
 var userInput1 = document.getElementById("userInput1");
 button1.addEventListener('click', showResults1);
@@ -71,7 +71,7 @@ function showResults1(){
   }
 }
 
-// FILTER BY JOB LOCATION
+// FILTER BY BEER ?
 var button2 = document.getElementById("locationSearchButton");
 var userInput2 = document.getElementById("userInput2");
 button2.addEventListener('click', showResults2);
@@ -96,7 +96,7 @@ function showResults2(){
   }
 }
 
-// FILTER BY JOB TYPE 
+// FILTER BY JOB BEER ? 
 var fullTimeCheckBox = document.getElementById("cbFT");
 var partTimeCheckBox = document.getElementById("cbPT");
 var contractCheckBox = document.getElementById("cbCT");
