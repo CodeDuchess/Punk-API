@@ -19,7 +19,7 @@
       height: 42px;
       border-radius: 5px;
       outline: none;
-      color: #40bce0;
+      /*color: #40bce0; */
       }
 
     .searchTerm:focus{
