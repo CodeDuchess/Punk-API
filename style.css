@@ -84,8 +84,9 @@
       background-color: black;
       margin: 0 0 2rem 0;
       font-size: 1.5rem;
-      color: white;
-      }
+      /* this shade is white smoke */  
+      color: #F5F5F5;
+      };
 
     img {
        display: block;
