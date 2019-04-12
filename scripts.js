@@ -24,19 +24,15 @@ request.onload = function () {
         const h1 = document.createElement('h1');
         h1.textContent = beer.name;
             
-        const h3 = document.createElement('h3');
-        h3.textContent = beer.description;
+        const p = document.createElement('p');
+        beer.description = beer.description.substring(0, 300);
+        p.textContent = `${beer.description}...`;
             
         const h4 = document.createElement('h4');
         h4.textContent = beer.image_url;   
             
-        const p = document.createElement('p');
-        beer.description = beer.description.substring(0, 300);
-        p.textContent = `${beer.description}...`;
-                   
         container1.appendChild(card);
         card.appendChild(h1);
-        card.appendChild(h3);    
         card.appendChild(h4);      
         card.appendChild(p);
         
