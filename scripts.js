@@ -31,9 +31,9 @@ request.onload = function () {
         const card = document.createElement('div');
         card.setAttribute('class', 'card');
 
-        // render relevant data: beer name in an <h1> tag     
-        const h1 = document.createElement('h1');
-        h1.textContent = beer.name;
+        // render relevant data: beer name in an <h3> tag     
+        const h3 = document.createElement('h3');
+        h3.textContent = beer.name;
             
         // render relevant data: beer description in an <p> tag     
         const p = document.createElement('p');
@@ -42,7 +42,7 @@ request.onload = function () {
             
         
         container1.appendChild(card);
-        card.appendChild(h1);
+        card.appendChild(h3);
         card.appendChild(p);
      
          });
