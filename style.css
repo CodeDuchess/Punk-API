@@ -130,7 +130,7 @@
 
     .card {
       margin: 1rem;
-      background: white;
+      background: black;
       box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
       border-radius: 12px;
       overflow: hidden;
@@ -161,18 +161,18 @@
      }
 
     .card:nth-child(2n) h1 {
-      background-color: white;
-      color: #696969;
+      background-color: black;
+      color: white;
      }
 
     .card:nth-child(4n) h1 {
-      background-color: white;
-      color: #696969;
+      background-color: black;
+      color: white;
      }
 
     .card:nth-child(5n) h1 {
-      background-color: white;
-      color: #696969;
+      background-color: black;
+      color: white;
       }
 
     .container2 {
