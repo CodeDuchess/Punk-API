@@ -87,7 +87,7 @@
       margin: 0 0 2rem 0;
       font-size: 1.5rem;
       /* this shade is white smoke */  
-      color: #F5F5F5;
+      color: #6a6e96;
       };
 
     img {
@@ -166,19 +166,19 @@
     .card:nth-child(2n) h1 {
       background-color: #99502c;
       /* this shade is white smoke */
-      color: #F5F5F5;
+      color: #6a6e96;
      }
 
     .card:nth-child(4n) h1 {
       background-color: #99502c;
       /* this shade is white smoke */
-      color: #F5F5F5;
+      color: #6a6e96;
      }
 
     .card:nth-child(5n) h1 {
       background-color: #99502c;
       /* this shade is white smoke */
-      color: #F5F5F5;
+      color: #6a6e96;
       }
 
     .container2 {
