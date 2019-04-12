@@ -83,7 +83,7 @@
     h1 {
       text-align: center;
       padding: 1.5rem 2.5rem;
-      background-color: grey;
+      background-color: #664d51;
       margin: 0 0 2rem 0;
       font-size: 1.5rem;
       /* this shade is white smoke */  
@@ -98,7 +98,7 @@
  
     h2 {
      font-size: .5rem; 
-     color: grey;
+     color:#664d51;
       }
 
     h3, h4 {
@@ -107,7 +107,7 @@
       line-height: .5;
       top: 10px;
       left: 43px;  
-      color: grey;
+      color: #664d51;
       }
 
     h5 {
@@ -117,7 +117,7 @@
       right: 15px;
       bottom: 25px;  
       margin: 6px;
-      color: grey;
+      color: #664d51;
       }
 
     p {
