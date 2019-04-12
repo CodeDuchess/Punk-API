@@ -70,7 +70,7 @@ function showResults1(){
     }
   }
 }
-
+/*
 // FILTER BY BEER ?
 var button2 = document.getElementById("locationSearchButton");
 var userInput2 = document.getElementById("userInput2");
@@ -138,7 +138,7 @@ function showByJobType(){
     }
   }
 }
-
+*/
 request.send();
 
 
