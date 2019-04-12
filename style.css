@@ -166,19 +166,19 @@
     .card:nth-child(2n) h1 {
       background-color: #99502c;
       /* this shade is white smoke */
-      color: #6a6e96;
+      color: #F5F5F5 ;
      }
 
     .card:nth-child(4n) h1 {
       background-color: #99502c;
       /* this shade is white smoke */
-      color: #6a6e96;
+      color: #F5F5F5;
      }
 
     .card:nth-child(5n) h1 {
       background-color: #99502c;
       /* this shade is white smoke */
-      color: #6a6e96;
+      color: #F5F5F5;
       }
 
     .container2 {
