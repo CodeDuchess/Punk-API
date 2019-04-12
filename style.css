@@ -127,6 +127,7 @@
       }
 
     .container1{
+      display: relative;  
       flex-wrap: wrap;
       padding: 20px;
       }
