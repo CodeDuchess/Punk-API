@@ -6,6 +6,10 @@
         background-size: 50%;
         }
 
+    .jumbotron-fluid {
+        border-radius: 8px;
+        }
+
     .search {
       width: 100%;
       position: relative;
