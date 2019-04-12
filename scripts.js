@@ -46,8 +46,18 @@ request.onload = function () {
     }
 }
 
+//FILTER BY BEER NAME
+var button1 = document.getElementById("keywordSearchButton");
+var userInput1 = document.getElementById("userInput1");
+button1.addEventListener('click', showResults1);
+userInput1.addEventListener("keyup", function(event){
+  if (event.keyCode === 13){
+    showResults();
+  }
+}) 
 
-// FILTER BY BEER NAME
+
+/* FILTER BY BEER NAME
 var button1 = document.getElementById("keywordSearchButton");
 var userInput1 = document.getElementById("userInput1");
 button1.addEventListener('click', showResults1);
@@ -55,7 +65,7 @@ userInput1.addEventListener("keyup", function(e){
   if (e.keyCode === 13){
     showResults();
   }
-})
+}) */
 
 function showResults1(){
   var searchKeyword = userInput1.value.toLowerCase();
