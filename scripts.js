@@ -53,7 +53,7 @@ button1.addEventListener('click', showResults1);
 userInput1.addEventListener("keyup", function(event){
   if (event.keyCode === 13) {
       event.preventDefault();
-    document.getElementById("userInput1");
+    document.getElementById("KeywordSearchButton");
   }
 }) 
 
