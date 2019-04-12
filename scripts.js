@@ -50,9 +50,10 @@ request.onload = function () {
 var button1 = document.getElementById("keywordSearchButton");
 var userInput1 = document.getElementById("userInput1");
 button1.addEventListener('click', showResults1);
-userInput1.addEventListener("keyup", function(event){
-  if (event.keyCode === 13){
-    showResults();
+userInput1.addEventListener("keyup", function(e){
+  if (e.keyCode === 13) {
+      event.preventDefault();
+    document.getElementById("userInput1");
   }
 }) 
 
