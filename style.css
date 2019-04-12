@@ -164,13 +164,13 @@
      }
 
     .card:nth-child(2n) h1 {
-      background-color: #333333;
+      background-color: #99502c;
       /* this shade is white smoke */
       color: #F5F5F5;
      }
 
     .card:nth-child(4n) h1 {
-      background-color: #333333;
+      background-color: #99502c;
       /* this shade is white smoke */
       color: #F5F5F5;
      }
