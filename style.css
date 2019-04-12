@@ -1,4 +1,4 @@
-/* STYLING FOR JS CARD LAYOUT */ 
+/* STYLING FOR JS CARD LAYOUT
     
     * {
       box-sizing: border-box;
@@ -80,7 +80,7 @@
       background-color: white;
       color: #696969;
      }
-
+*/
     .card:nth-child(5n) h1 {
       background-color: white;
       color: #696969;
