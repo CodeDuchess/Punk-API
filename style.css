@@ -3,6 +3,7 @@
 
     body{
         background: url(orange_brick.jpg);
+        background-size: 50%;
         }
 
     .search {
