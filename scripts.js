@@ -31,18 +31,15 @@ request.onload = function () {
         h4.textContent = beer.image_url;   
             
         const p = document.createElement('p');
-        job.description = job.description.substring(0, 300);
-        p.textContent = `${job.description}...`;
-            
-        const h5 = document.createElement('h5');
-        h5.textContent = `${job.url}...`;    
-            
+        beer.description = beer.description.substring(0, 300);
+        p.textContent = `${beer.description}...`;
+                   
         container1.appendChild(card);
         card.appendChild(h1);
         card.appendChild(h3);    
         card.appendChild(h4);      
         card.appendChild(p);
-        card.appendChild(h5);  
+        
          });
 
   // ERROR HANDLING
