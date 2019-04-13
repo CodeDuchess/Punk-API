@@ -46,7 +46,9 @@ request.onload = function () {
     }
 }
 
-//FILTER BY BEER NAME
+      
+
+/*FILTER BY BEER NAME
 var button1 = document.getElementById("button1");
 var userInput1 = document.getElementById("userInput1");
 button1.addEventListener('click', showResults1);
