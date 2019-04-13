@@ -19,10 +19,11 @@
          background-position: center center;
          height: 800px;
         }
- 
+
+     /* this is the <h2> in the jumbotron */
     .display-4 {
         border-radius: 8px;
-        font-
+        padding: 10px;
         }
 
     .search {
