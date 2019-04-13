@@ -2,7 +2,7 @@
     @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
     body{
-        background: url(orange_brick.jpg);
+        background: url("orange_brick.jpg");
         background-size: 50%;
         /* This text is in Papyrus */
     	font-family: Arial; 
