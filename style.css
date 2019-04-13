@@ -59,13 +59,13 @@
       font-size: 20px;
       }
 
-    /*change search bar dimentions here*/
+    /*change search bar dimentions here
     .wrap{
       position: absolute;
       left: 50%;
       top: 5px;
       transform: translate(-50%, -50%);
-      width: 50%; 
+      width: 50%; */
       
       input {
        font-size: 14px; 
