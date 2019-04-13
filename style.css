@@ -104,13 +104,6 @@
       /* this shade is white smoke */  
       color: #F5F5F5;
       };
-
-    img {
-       display: block;
-       margin: 1rem auto;
-       max-width: 100%; 
-       heigth: auto;
-      }
  
     h2 {
      font-size: .5rem; 
