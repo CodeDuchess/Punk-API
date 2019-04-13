@@ -57,7 +57,7 @@ userInput1.addEventListener("keyup", function(e){
 }) 
 
 function showResults1(){
-  var searchKeyword = .value.toLowerCase();
+  var searchKeyword = userInput1.value.toLowerCase();
   var cards = document.getElementsByClassName("card"); //this is an array
   var regex = new RegExp(searchKeyword, "g");
 
