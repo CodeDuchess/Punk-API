@@ -1,7 +1,10 @@
 // USED STRICT MODE TO ENSURE CLEANER, STANDARDIZED JS
 'use strict';
 
+//VANILLA JS BEGINS
+//DECLARE GOBAL VARIABLE
 var apiData="";
+
 const app = document.getElementById('root');
 const container1 = document.createElement('div');
 container1.setAttribute('class', 'container1');
@@ -9,7 +12,7 @@ app.appendChild(container1);
 var request = new XMLHttpRequest();
 
 //GET REQUEST WITH USE OF HEROKU AS A PROXY TO SOLVE CORS ERROR
-request.open('GET','https://cors-anywhere.herokuapp.com/https://api.punkapi.com/v2/beers?ibu_lt=36', 
+request.open('GET','https://cors-anywhere.herokuapp.com/https://api.punkapi.com/v2/beers', 
 true);
 
 request.onload = function () {  
@@ -20,7 +23,7 @@ request.onload = function () {
         const card = document.createElement('div');
         card.setAttribute('class', 'card');
 
-      // render relevant data: beer name, description and image      
+      // RENDER RELEVANT DATA - NAME, DESCRIPTION & TAGLINE     
         const h1 = document.createElement('h1');
         h1.textContent = beer.name;
             
@@ -46,7 +49,7 @@ request.onload = function () {
     }
 }
 
-/*FILTER BEERS */
+// SEARCH FILTER 
 var button1 = document.getElementById("button1");
 var userInput1 = document.getElementById("userInput1");
 button1.addEventListener('click', showResults1);
@@ -69,6 +72,8 @@ function showResults1(){
     }
   }
 }
+
+
 
 
 request.send();
