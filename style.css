@@ -187,22 +187,22 @@
      }
 
     .card:nth-child(2n) h1 {
-      /* this shade is a medium blue */  
-      background-color: #5572a0;
+      /* this shade is brown */  
+      background-color: #752c05;
       /* this shade is white smoke */
       color: #F5F5F5 ;
      }
 
     .card:nth-child(4n) h1 {
-     /* this shade is a medium blue */  
-      background-color: #5572a0;c;
+     /* this shade is brown */  
+      background-color: #752c05;
       /* this shade is white smoke */
       color: #F5F5F5;
      }
 
     .card:nth-child(5n) h1 {
-      /* this shade is a medium blue */  
-      background-color: #5572a0;
+      /* this shade is brown */  
+      background-color: #752c05;
       /* this shade is white smoke */
       color: #F5F5F5;
       }
