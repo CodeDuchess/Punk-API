@@ -1,55 +1,50 @@
-
-<template>
-  <div class="google-map" :id="mapName"></div>
-</template>
-
+<DOCTYPE html>
+<html>
+<head>
+  <title>Vue Demo #1: The Box App</title>
+  <meta charset='utf-8' />
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <style type="text/css">
+    .box {
+      height: 200px;
+      width: 200px; 
+      text-align: center;
+    }
+    .red {
+      background-color: red;
+    }
+    .green {
+      background-color: green;
+    }
+  </style>  
+</head>
+<body>
+  <h1>Vue Demo #1</h1>
+  <div id="vapp">
+      <colored-box class="red" v-show="display == 'redbox'"></colored-box>
+      <colored-box class="green" v-show="display == 'greenbox'"></colored-box>
+  </div>
+<!-- Our View App goes at the end of the document -->
 <script>
-export default {
-  name: 'google-map',
-  props: ['name'],
-  data: function () {
-    return {
-      mapName: this.name + "-map",
-      markerCoordinates: [{
-        latitude: 51.501527,
-        longitude: -0.1921837
-      }, {
-        latitude: 51.505874,
-        longitude: -0.1838486
-      }, {
-        latitude: 51.4998973,
-        longitude: -0.202432
-      }],
-      map: null,
-      bounds: null,
-      markers: []
+Vue.component('ColoredBox', {
+  template: "<div class=\"box\"><button v-on:click=\"toggleMe()\">Toggle Now</button></div>",
+  methods: {
+    toggleMe() {
+      this.$root.toggleBox()
     }
-  },
-  mounted: function () {
-    this.bounds = new google.maps.LatLngBounds();
-    const element = document.getElementById(this.mapName)
-    const mapCentre = this.markerCoordinates[0]
-    const options = {
-      center: new google.maps.LatLng(mapCentre.latitude, mapCentre.longitude)
-    }
-    this.map = new google.maps.Map(element, options);
-    this.markerCoordinates.forEach((coord) => {
-      const position = new google.maps.LatLng(coord.latitude, coord.longitude);
-      const marker = new google.maps.Marker({ 
-        position,
-        map: this.map
-      });
-    this.markers.push(marker)
-      this.map.fitBounds(this.bounds.extend(position))
-    });
   }
-};
+})
+const vueApp = new Vue({
+  el: '#vapp',
+  data: { 
+   display: 'redbox' 
+  },
+  methods: {
+    toggleBox() {
+      this.display == 'redbox' ? this.display = 'greenbox' : this.display = 'redbox'
+    }
+  }
+})
 </script>
-<style scoped>
-.google-map {
-  width: 800px;
-  height: 600px;
-  margin: 0 auto;
-  background: gray;
-}
-</style>
+</body>
+</html>
