@@ -46,6 +46,7 @@
 
     .searchButton {
       position: absolute;  
+      top: 95px;  
       right: -50px;
       width: 75px;
       height: 36px;
