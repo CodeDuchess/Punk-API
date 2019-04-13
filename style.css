@@ -9,6 +9,11 @@
     .jumbotron {
         border-radius: 8px;
         }
+
+     .jumboHeaderImg {
+         background-image: url("beer_cheers.jpg");
+         background-size: cover;
+        }
  
     .display-4 {
         border-radius: 8px;
