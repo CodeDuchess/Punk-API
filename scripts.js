@@ -48,28 +48,17 @@ request.onload = function () {
 
 //FILTER BY BEER NAME
 var button1 = document.getElementById("keywordSearchButton");
-var userInput1 = document.getElementById("userInput1");
+var form-control mr-sm-2 = document.getElementById("form-control mr-sm-2");
 button1.addEventListener('click', showResults1);
-userInput1.addEventListener("keyup", function(event){
+form-control mr-sm-2.addEventListener("keyup", function(event){
   if (event.keyCode === 13) {
       event.preventDefault();
     document.getElementById("KeywordSearchButton");
   }
 }) 
 
-
-/* FILTER BY BEER NAME
-var button1 = document.getElementById("keywordSearchButton");
-var userInput1 = document.getElementById("userInput1");
-button1.addEventListener('click', showResults1);
-userInput1.addEventListener("keyup", function(e){
-  if (e.keyCode === 13){
-    showResults();
-  }
-}) */
-
 function showResults1(){
-  var searchKeyword = userInput1.value.toLowerCase();
+  var searchKeyword = form-control mr-sm-2.value.toLowerCase();
   var cards = document.getElementsByClassName("card"); //this is an array
   var regex = new RegExp(searchKeyword, "g");
 
