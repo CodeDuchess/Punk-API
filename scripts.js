@@ -47,9 +47,9 @@ request.onload = function () {
 }
 
 //FILTER BY BEER NAME
-var button1 = document.getElementById("keywordSearchButton");
+var btn btn-outline-danger my-2 my-sm-0 = document.getElementById("keywordSearchButton");
 var form-control mr-sm-2 = document.getElementById("form-control mr-sm-2");
-button1.addEventListener('click', showResults1);
+btn-outline-danger my-2 my-sm-0.addEventListener('click', showResults1);
 form-control mr-sm-2.addEventListener("keyup", function(event){
   if (event.keyCode === 13) {
       event.preventDefault();
