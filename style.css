@@ -14,6 +14,7 @@
          background-image: url("beer_cheers.jpg");
          background-size: cover;
          background-position: center center;
+         height: 800px;
         }
  
     .display-4 {
