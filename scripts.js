@@ -69,75 +69,8 @@ function showResults1(){
     }
   }
 }
-/*
-// FILTER BY BEER ?
-var button2 = document.getElementById("locationSearchButton");
-var userInput2 = document.getElementById("userInput2");
-button2.addEventListener('click', showResults2);
-userInput2.addEventListener("keyup", function(e){
-  if (e.keyCode === 13){
-    showResults();
-  }
-})
 
-function showResults2(){
-  var searchKeyword = userInput2.value.toLowerCase();
-  var cards = document.getElementsByClassName("card");
-  var jobLocations = document.getElementsByTagName("h4");
-  var regex = new RegExp(searchKeyword, "g");
 
-  for (var i=0; i<cards.length ; i++){
-    if (jobLocations[i].textContent.toLowerCase().match(regex)){
-      cards[i].style.display = "block";
-    } else{
-      cards[i].style.display= "none";
-    }
-  }
-}
-
-// FILTER BY JOB BEER ? 
-var fullTimeCheckBox = document.getElementById("cbFT");
-var partTimeCheckBox = document.getElementById("cbPT");
-var contractCheckBox = document.getElementById("cbCT");
-var jobType = document.getElementsByTagName("h3");
-
-fullTimeCheckBox.addEventListener("change", showByJobType);
-partTimeCheckBox.addEventListener("change", showByJobType);
-contractCheckBox.addEventListener("change", showByJobType);
-
-function showByJobType(){
-  var cards = document.getElementsByClassName("card");
-  for (var i=0; i<cards.length ; i++){
-    if (fullTimeCheckBox.checked === false){
-      if (jobType[i].textContent.toLowerCase() == "full time"){
-        cards[i].style.display = "none";
-      }
-    } else if (fullTimeCheckBox.checked){
-      if (jobType[i].textContent.toLowerCase() == "full time"){
-        cards[i].style.display = "block";
-      }
-    }
-    if (partTimeCheckBox.checked === false){
-      if (jobType[i].textContent.toLowerCase() == "part time"){
-        cards[i].style.display = "none";
-      }
-    }else if (partTimeCheckBox.checked){
-      if (jobType[i].textContent.toLowerCase() == "part time"){
-        cards[i].style.display = "block";
-      }
-    }
-    if (contractCheckBox.checked === false){
-      if (jobType[i].textContent.toLowerCase() == "contract"){
-        cards[i].style.display = "none";
-      }
-    }else if (contractCheckBox.checked){
-      if (jobType[i].textContent.toLowerCase() == "contract"){
-        cards[i].style.display = "block";
-      }
-    }
-  }
-}
-*/
 request.send();
 
 
