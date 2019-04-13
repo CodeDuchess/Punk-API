@@ -48,9 +48,9 @@ request.onload = function () {
 
 //FILTER BY BEER NAME
 var button1 = document.getElementById("keywordSearchButton");
-var form-control mr-sm-2 = document.getElementById("form-control mr-sm-2");
+var  = document.getElementById("");
 button1.addEventListener('click', showResults1);
-form-control mr-sm-2.addEventListener("keyup", function(event){
+.addEventListener("keyup", function(event){
   if (event.keyCode === 13) {
       event.preventDefault();
     document.getElementById("KeywordSearchButton");
@@ -58,7 +58,7 @@ form-control mr-sm-2.addEventListener("keyup", function(event){
 }) 
 
 function showResults1(){
-  var searchKeyword = form-control mr-sm-2.value.toLowerCase();
+  var searchKeyword = .value.toLowerCase();
   var cards = document.getElementsByClassName("card"); //this is an array
   var regex = new RegExp(searchKeyword, "g");
 
