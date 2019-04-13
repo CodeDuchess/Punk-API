@@ -25,7 +25,7 @@ request.onload = function () {
         h1.textContent = beer.name;
             
         const p = document.createElement('p');
-        beer.description = beer.description.substring(0, 300);
+        beer.description = beer.description.substring(0, 100);
         p.textContent = `${beer.description}...`;
             
         const h4 = document.createElement('h4');
