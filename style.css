@@ -1,5 +1,3 @@
-/* SEARCH BAR STYLING HERE */
-    @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
     body{
         background-image: url("orange_brick.jpg");
@@ -65,13 +63,13 @@
       font-size: 20px;
       }
 
-    /*change search bar dimensions here*/
+    /*change search bar dimensions here
     .wrap{
       position: relative;
       left: 50%;
       top: 5px;
       transform: translate(-50%, -50%);
-      width: 50%; 
+      width: 50%; */
       
       input {
        font-size: 14px; 
