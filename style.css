@@ -63,13 +63,13 @@
       }
 
 
-    /*change search bar dimensions here
+    /*change search bar dimensions here */
     .wrap{
       position: relative;
       left: 50%;
       top: 5px;
       transform: translate(-50%, -50%);
-      width: 50%; */
+      width: 50%; 
 
       /* VUE STYLING */
       
