@@ -115,7 +115,8 @@
       -moz-osx-font-smoothing: grayscale;
       font-family: 'Dosis', sans-serif;
       line-height: 1.6;
-      color: #696969;
+     /* THIS SETS THE COLOR FOR THE BACKGROUND OF THE CARDS */
+      color: #e5c4b9;
       background: white;
          }
 
