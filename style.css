@@ -73,10 +73,10 @@
       /* VUE STYLING */
       
      .v-enter-active {
-         
+         animation: bounceIn 2s;
         }
     .v-leave-active {
-        
+        animation: bounceIn 2s reverse;
         }
     
      
