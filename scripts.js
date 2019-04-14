@@ -84,6 +84,7 @@ function showResults1(){
                 }
              }
         )}; 
+          
 request.send();
 
 
