@@ -69,8 +69,11 @@
          <div id="#app"
               <div @click="show"=!show">
              <h1>{{ title }}</h1>
-             <h2>{{ description }}</h2>
-         </div>   
+         </div> 
+            <transition>
+             <h2 v-if="show"{{ description }}</h2>
+            </transition>  
+           
          
       <!-- DIV FOR CARD DISPLAY -->
       <div id="root"></div>
