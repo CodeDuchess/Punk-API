@@ -73,14 +73,15 @@
         <div id="root"></div>
          
          <!-- SECTION FOR VUE -->
-         <div id="#app"
+         <div id="#app">
               <div @click="show"=!show">
              <h1>{{ title }}</h1>
          </div> 
             <transition>
              <h2 v-if="show"{{ description }}</h2>
             </transition>  
-                             
+          </div>   
+                            
        <!-- LOCAL VANILLA JS FILE -->             
       <script src="scripts.js"></script>
       
