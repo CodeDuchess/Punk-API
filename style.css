@@ -190,6 +190,10 @@
      width: 1500px;
      flex-wrap: wrap;
      padding-top: 100px;
+     background-image: url("beer_cheers.jpg");
+     background-size: cover;
+     background-position: center center;
+     height: 600px;
      }
 
     .card {
