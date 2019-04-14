@@ -184,6 +184,8 @@
 
      /*THIS ALIGNS THE CARDS SIDE BY SIDE (THREE ON A LINE)*/
     .container1 {
+     position: relative;
+     top: 400px;
      display: flex;
      width: 1500px;
      flex-wrap: wrap;
