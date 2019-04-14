@@ -73,6 +73,17 @@ function showResults1(){
   }
 }
 
+// VUE.JS ANIMATION HERE
+ new Vue({
+     el: '#app',
+     data() {
+         return {
+             
+         }
+         
+     }
+     
+     
 
 
 
