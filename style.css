@@ -124,10 +124,7 @@
       -moz-osx-font-smoothing: grayscale;
       font-family: 'Dosis', sans-serif;
       line-height: 1.6;
-      background-image: url("stone.jpg");
-      background-size: cover;
-      background-position: center center;
-      height: 600px;
+      background-color: beige;
          }
 
    
