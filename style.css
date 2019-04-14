@@ -24,9 +24,11 @@
      /* THIS IS THE <H2> IN THE JUMBOTRON */
     .display-4 {
         position: relative;
+        left: 10px;
         border-radius: 8px;
         padding: 10px;
-        font-family: Arial Narrow;
+        font-family: Impact;
+        color: maroon;
         }
 
     .search {
