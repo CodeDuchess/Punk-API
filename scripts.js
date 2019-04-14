@@ -78,7 +78,7 @@ function showResults1(){
      el: '#app',
      data() {
          return {
-             message: Hi from Vue;
+             message: 'Hi from Vue'
          }
         }
      )};
