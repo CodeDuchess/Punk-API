@@ -16,7 +16,7 @@
 
      .jumboHeaderImg {
          background-image: url("beer_bottle.jpg");
-         background-size: 60%;
+         background-size: 50%;
          background-position: center center;
          height: 600px;
         }
