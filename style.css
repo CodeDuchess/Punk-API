@@ -213,22 +213,22 @@
          }
 
     .card:nth-child(2n) h1 {
-      /* LIGHT BLUE */  
-      background-color: #bcc6d6;
+      /*BROWN */  
+      background-color: #752c05;
       /* THIS SHADE IS WHITE SMOKE */
       color: #F5F5F5 ;
        }
 
     .card:nth-child(4n) h1 {
-     /* LIGHT BLUE */  
-      background-color: #bcc6d6;
+     /* BROWN */  
+      background-color: #752c05;
       /* THIS SHADE IS WHITE SMOKE */
       color: #F5F5F5;
        }
 
     .card:nth-child(5n) h1 {
-      /* LIGHT BLUE */  
-      background-color: #bcc6d6;
+      /* BROWN */  
+      background-color: #752c05;
       /* THIS SHADE IS WHITE SMOKE */
       color: #F5F5F5;
         }
