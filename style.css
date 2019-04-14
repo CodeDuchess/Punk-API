@@ -1,5 +1,13 @@
  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+ /* CONTROLS THE CARDS WHICH WERE STYLED WITHOUT BOOTSTRAP */
+    #root {
+      max-width: 900px;
+   /* PERFECT MARGIN FOR THREE CARDS PER ROW */  
+      margin: 35px;
+      }
+
+
     body{
         font-family: Arial; 
         }
@@ -111,12 +119,7 @@
       background: white;
          }
 
-    /* CONTROLS WIDTH OF THE CARD */
-    #root {
-      max-width: 900px;
-      margin: 35px;
-      }
-
+   
     h1 {
       text-align: center;
       padding: 1rem 2rem;
