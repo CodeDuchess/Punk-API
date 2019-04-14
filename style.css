@@ -1,8 +1,6 @@
  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
     body{
-        background-image: url("brown_blue.jpg");
-        background-size: 50%; 
         font-family: Arial; 
         }
 
@@ -169,6 +167,12 @@
       flex-wrap: wrap;
       padding: 20px;
       }
+
+    /* original below 
+    .container1 {
+     display: flex;
+     flex-wrap: wrap;
+     }
 
     .card {
       display: relative;  
