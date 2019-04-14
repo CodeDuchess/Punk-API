@@ -35,14 +35,14 @@ Vue.component('beer-card', {
 				return vm.apiData.filter(function(beer) {
 					return beer.abv == abv;
 				});
-            }
-		}
-    },
+            		     }
+			   }
+                       },
 
     methods: { 
         getBeerData: function() {
             let url = 'https://cors-anywhere.herokuapp.com/https://api.punkapi.com/v2/beers';
-            fetch( url,{
+            fetch( url, {
                 'headers': {
                   'Content-Type': 'application/json'
                 },
@@ -62,7 +62,5 @@ Vue.component('beer-card', {
             this.getBeerData();
         });
     }
-
-
 });
   
