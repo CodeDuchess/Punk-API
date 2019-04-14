@@ -32,6 +32,7 @@ request.onload = function () {
         p.textContent = `${beer.description}...`;
             
         const h4 = document.createElement('h4');
+        beer.tagline = beer.tagline.substring(0, 20);   
         h4.textContent = beer.tagline;   
             
         container1.appendChild(card);
