@@ -4,7 +4,6 @@
         background-image: url("brown_blue.jpg");
         background-size: 50%; 
         font-family: Arial; 
-
         }
 
       /* BOOTSTRAP JUMBOTRON STYLING */
@@ -63,17 +62,18 @@
 
 
     /*change search bar dimensions here */
-    .wrap{
+    .wrap {
       position: relative;
       left: 50%;
       top: 5px;
       transform: translate(-50%, -50%);
       width: 50%; 
-     
+       }
+
      input {
        font-size: 14px;
        color: white;
-     }
+       }
 
       /* VUE STYLING */
       
@@ -103,7 +103,7 @@
     
     * {
       box-sizing: border-box;
-    }
+       }
 
     html {
       -webkit-font-smoothing: antialiased;
@@ -112,12 +112,12 @@
       line-height: 1.6;
       color: #696969;
       background: white;
-    }
+         }
 
     #root {
       max-width: 1200px;
       margin: 0 auto;
-    }
+      }
 
     h1 {
       text-align: center;
@@ -128,7 +128,7 @@
       font-size: 1.5rem;
       /* this shade is white smoke */  
       color: #F5F5F5;
-      };
+      }
  
     h2 {
      font-size: .5rem; 
@@ -143,7 +143,7 @@
       top: 10px;
       left: 43px;  
       color: #F5F5F5;
-      }
+       }
 
     h5 {
       position: relative;
@@ -153,7 +153,7 @@
       bottom: 25px;  
       margin: 6px;
       color: #F5F5F5;
-      }
+       }
 
     p {
       padding: 0 2.5rem 1.5rem;
@@ -177,21 +177,21 @@
       border-radius: 12px;
       overflow: hidden;
       transition: all .2s linear;
-      }
+        }
 
     .card:hover {
       box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
       transform: translate3D(0, -2px, 0);
-     }
+        }
 
-    /* Use media screen for responsive web design on desktops, laptops, tablets, and mobile phones */
-    @media screen and (min-width: 600px) {
+      /* Use media screen for responsive web design on desktops, laptops, tablets, and mobile phones */
+       @media screen and (min-width: 600px) {
       .card {
         flex: 1 1 calc(50% - 2rem);
         border-radius: 20px;
         padding: 15px;
+          }
         }
-     }
 
      /* Use media screen for responsive web design on desktops, laptops, tablets, and mobile phones */
     @media screen and (min-width: 900px) {
@@ -199,29 +199,29 @@
         flex: 1 1 calc(33% - 2rem);
         border-radius: 20px;
         padding: 15px;
+          }
          }
-     }
 
     .card:nth-child(2n) h1 {
       /* this shade is brown */  
       background-color: #752c05;
       /* this shade is white smoke */
       color: #F5F5F5 ;
-     }
+       }
 
     .card:nth-child(4n) h1 {
      /* this shade is brown */  
       background-color: #752c05;
       /* this shade is white smoke */
       color: #F5F5F5;
-     }
+       }
 
     .card:nth-child(5n) h1 {
       /* this shade is brown */  
       background-color: #752c05;
       /* this shade is white smoke */
       color: #F5F5F5;
-      }
+        }
 
     .container2 {
     	padding: 20px;
@@ -243,11 +243,9 @@
 
     li {
     	padding: 8px 16px;
-    	/*border-bottom: 1px solid #eee; */
-      }
+       }
 
 /* FILTER BY JOB TYPE */
-
 
 .cbContainer {
    font-size: 1.2rem;
@@ -273,12 +271,9 @@
     -o-transform: scale(2); /* Opera */
     padding: 20px;
     color: white;
-   }
+     }
 
   userInput1, userInput2 {
     font-size: 1.5rem;
-    }
+     }
       
-
-   
-  
