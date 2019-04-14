@@ -7,9 +7,7 @@
 
         }
 
-    .jumbotron {
-        border-radius: 8px;
-        }
+      /* BOOTSTRAP JUMBOTRON STYLING */
 
      .jumboHeaderImg {
          background-image: url("beer_cheers.jpg");
@@ -18,7 +16,7 @@
          height: 600px;
         }
 
-     /* this is the <h2> in the jumbotron */
+     /* THIS IS THE <H2> IN THE JUMBOTRON */
     .display-4 {
         position: relative;
         border-radius: 8px;
