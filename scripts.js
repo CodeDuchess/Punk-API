@@ -78,7 +78,8 @@ function showResults1(){
      el: '#app',
      data() {
          return {
-             message: 'Hi from Vue'
+             title: 'Click Here for More!',
+             show: false
          }
         }
      )};
