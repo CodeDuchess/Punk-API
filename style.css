@@ -126,13 +126,12 @@
       background-color: #752c05;
       margin: 0 0 2rem 0;
       font-size: 1.5rem;
-      /* THIS SHADE IS WHITE SMOKE */  
-      color: #F5F5F5;
+      color: black;
       }
  
     h2 {
      font-size: .5rem; 
-     color: #e7efb1;
+     color: black;
       }
 
     h3, h4 {
