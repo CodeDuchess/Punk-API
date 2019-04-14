@@ -73,6 +73,8 @@ function showResults1(){
   }
 }
 
+request.send();
+
 // VUE.JS ANIMATION HERE
  new Vue({
      el: '#app',
@@ -88,7 +90,7 @@ function showResults1(){
 
 
 
-request.send();
+
 
 
 
