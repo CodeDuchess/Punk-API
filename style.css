@@ -61,6 +61,7 @@
       font-size: 20px;
       }
 
+
     /*change search bar dimensions here
     .wrap{
       position: relative;
@@ -68,6 +69,8 @@
       top: 5px;
       transform: translate(-50%, -50%);
       width: 50%; */
+
+      /* VUE STYLING */
       
       input {
        font-size: 14px; 
@@ -75,9 +78,7 @@
       }
         
     }
-    .fa fa search {
-        display: inline-flex;
-      }
+    
      
    /* STYLING FOR JS CARD LAYOUT */ 
     
