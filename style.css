@@ -41,7 +41,7 @@
       }
 
     .searchTerm:focus{
-      /* color is maroon shade */  
+      /* COLOR IS A MAROON SHADE */  
       color: #6b0413;
       }
 
@@ -58,8 +58,7 @@
       font-size: 20px;
       }
 
-
-    /*change search bar dimensions here */
+    /*CHANGE SEARCH BAR DIMENSIONS HERE */
     .wrap {
       position: relative;
       left: 50%;
@@ -112,6 +111,7 @@
       background: white;
          }
 
+    /* CONTROLS WIDTH OF THE CARD */
     #root {
       max-width: 900px;
       margin: 0 auto;
@@ -120,11 +120,11 @@
     h1 {
       text-align: center;
       padding: 1rem 2rem;
-      /* this shade is brown */  
+      /* THIS SHADE IS BROWN */  
       background-color: #752c05;
       margin: 0 0 2rem 0;
       font-size: 1.5rem;
-      /* this shade is white smoke */  
+      /* THIS SHADE IS WHITE SMOKE */  
       color: #F5F5F5;
       }
  
@@ -190,7 +190,7 @@
       transform: translate3D(0, -2px, 0);
         }
 
-      /* Use media screen for responsive web design on desktops, laptops, tablets, and mobile phones */
+      /* USE MEDIA SCREEN FOR RESONSIVE WEB DESIGN ON DESKTOPS, LAPTOPS, TABLETS AND MOBILE PHONES */
        @media screen and (min-width: 600px) {
       .card {
         flex: 1 1 calc(50% - 2rem);
@@ -199,7 +199,7 @@
           }
         }
 
-     /* Use media screen for responsive web design on desktops, laptops, tablets, and mobile phones */
+     /* USE MEDIA SCREEN FOR RESONSIVE WEB DESIGN ON DESKTOPS, LAPTOPS, TABLETS AND MOBILE PHONES */
     @media screen and (min-width: 900px) {
       .card {
         flex: 1 1 calc(33% - 2rem);
