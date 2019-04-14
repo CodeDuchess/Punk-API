@@ -26,7 +26,7 @@ request.onload = function () {
       // RENDER RELEVANT DATA - NAME, DESCRIPTION & TAGLINE     
         const h1 = document.createElement('h1');
         // CHARACHTERS REDUCED TO CREATE CONSISTENT ONE LINE NAMES    
-        beer.name = beer.name.substring(0, 26);      
+        beer.name = beer.name.substring(0, 22);      
         h1.textContent = beer.name;
             
         const p = document.createElement('p');
