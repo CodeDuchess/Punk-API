@@ -73,8 +73,6 @@ function showResults1(){
   }
 }
 
-request.send();
-
 // VUE.JS INSTANCE HERE
  new Vue ({
      el: '#app',
@@ -86,3 +84,6 @@ request.send();
                 }
              }
         )}; 
+request.send();
+
+
