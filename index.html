@@ -69,14 +69,14 @@
 	  <div class="filter">
 		  <label><input type="checkbox" v-model="selectedType" value="Alcohol By Volume"/>Alcohol By Volume</label>
 		  <label><input type="checkbox" v-model="selectedType" value="International Bitterness Units"/>Alcohol By Volume</label>
-    </div>
+         </div>
 	
-	<ul class="job-list">
-		<li v-for="job in filteredJobs">
-      <job-card v-bind:job="job"></job-card>
-    </li>
+	<ul class="beer-list">
+	   <li v-for="beer in filteredBeers">
+      	       <beer-card v-bind:beer="beer"></beer-card>
+           </li>
 	</ul>
-</div>
+      </div>
                      
         <!-- DIV FOR CARD DISPLAY -->
         <div id="root"></div>
