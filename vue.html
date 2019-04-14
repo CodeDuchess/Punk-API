@@ -1,18 +1,27 @@
-<
-<!-- SECTION FOR VUE --> 
-         <div id="#app">
-              <div @click="show"=!show">
-             <h1>{{ title }}</h1>
-         </div> 
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Punk Beer API</title>
+        
+ </head>
+  
+  <body>
+       <div id="#app">
+            <div @click="show"=!show">
+            <h1>{{ title }}</h1>
+        </div> 
             <transition>
              <h2 v-if="show"{{ description }}</h2>
             </transition>  
-          </div>
-                            
-//VUE.JS INSTANCE HERE
- new Vue ({
-     el: '#app',
-     data() {
+         </div>
+     <script>                       
+         //VUE.JS INSTANCE HERE
+        new Vue ({
+         el: '#app',
+         data() {
          return {
              title: 'Click Here for More!',
              show: false,
@@ -20,8 +29,9 @@
                 }
              }
         )}; 
-          
-    <style>      
+      </script> 
+                            
+     <style>      
      /* VUE STYLING */
       
      .v-enter-active {
@@ -45,3 +55,5 @@
          transform(1); 
         } 
     </style>
+   </body>
+  </html>
