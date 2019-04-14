@@ -63,6 +63,20 @@
     <div class="jumbotron-fluid">
        <div class="jumboHeaderImg">
           </a><h2 class="display-4">BrewDog Presents:  Punk Potables -- Our Featured Beers for Spring!</h2>
+      
+      <!-- DIV for Vue.js filter -->
+  	<div class="container2" id="jobs">
+	  <div class="filter">
+		  <label><input type="checkbox" v-model="selectedType" value="Alcohol By Volume"/>Alcohol By Volume</label>
+		  <label><input type="checkbox" v-model="selectedType" value="International Bitterness Units"/>Alcohol By Volume</label>
+    </div>
+	
+	<ul class="job-list">
+		<li v-for="job in filteredJobs">
+      <job-card v-bind:job="job"></job-card>
+    </li>
+	</ul>
+</div>
                      
         <!-- DIV FOR CARD DISPLAY -->
         <div id="root"></div>
