@@ -89,7 +89,7 @@
        color: white;
        }
 
-      /* VUE STYLING 
+      /* VUE STYLING */
       
      .v-enter-active {
          animation: bounceIn 2s;
@@ -110,7 +110,7 @@
         }
       100%  {
          transform(1); 
-        } */
+        } 
            
      
    /* STYLING FOR JS CARD LAYOUT */ 
