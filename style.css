@@ -123,8 +123,10 @@
       -moz-osx-font-smoothing: grayscale;
       font-family: 'Dosis', sans-serif;
       line-height: 1.6;
-     /* color: #e5c4b9; */
-      background: white;
+      background-image: url("beer_bubbles.jpg");
+      background-size: cover;
+      background-position: center center;
+      height: 600px;
          }
 
    
@@ -190,11 +192,7 @@
      width: 1500px;
      flex-wrap: wrap;
      padding-top: 100px;
-     background-image: url("beer_bubbles.jpg");
-     background-size: cover;
-     background-position: center center;
-     height: 600px;
-     }
+      }
 
     .card {
       display: relative;  
