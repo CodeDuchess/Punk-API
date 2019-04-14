@@ -82,7 +82,7 @@ request.send();
          return {
              title: 'Click Here for More!',
              show: false,
-             description: "Wheat is Neat Event will take place on May 2, 2019 at BrewDog Brewery!'
+             description: 'Wheat is Neat Event will take place on May 2, 2019 at BrewDog Brewery!'
          }
         }
  
