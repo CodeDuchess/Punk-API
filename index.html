@@ -69,6 +69,9 @@
               <p>Wheat malt will appear as bready, doughy, or cracker-like, which can extend into the finish. Hop bitterness should be higher than a German Wheat but remain modest, in the range of low to medium. The bitterness can linger into a somewhat crisp finish or disappear behind a slightly sweeter end. Either is acceptable. Hop flavors should be low to moderate and will likely carry spicy, citrusy, floral, or fruity qualities. No banana esters or clove phenols. Esters should remain low to none. </p>
                 <!--<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->  
          
+        <!-- DIV FOR CARD DISPLAY -->
+        <div id="root"></div>
+         
          <!-- SECTION FOR VUE -->
          <div id="#app"
               <div @click="show"=!show">
@@ -77,11 +80,7 @@
             <transition>
              <h2 v-if="show"{{ description }}</h2>
             </transition>  
-           
-         
-      <!-- DIV FOR CARD DISPLAY -->
-      <div id="root"></div>
-                    
+                             
        <!-- LOCAL VANILLA JS FILE -->             
       <script src="scripts.js"></script>
       
@@ -91,6 +90,4 @@
       </body>
  </html>
 
-
-  
 
