@@ -62,6 +62,5 @@ Vue.component('beer-card', {
         });
     }
 
-
 });
   
