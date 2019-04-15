@@ -64,20 +64,20 @@
           </a><h2 class="display-4">BrewDog Presents:  Punk Potables -- Our Featured Beers for Spring!</h2>
       
       <!-- DIV for Vue.js filter -->
-	   <div class="container2" id="jobs">
+	   <div class="container2" id="beers">
 	<div class="filter">
-		<label><input type="radio" v-model="selectedType" value="Full Time"/>Full Time</label>
-		<label><input type="radio" v-model="selectedType" value="Part Time"/>Part Time</label>
-    <label><input type="radio" v-model="selectedType" value="Contract"/>Contract</label>
-		
-	</div>
-	
-	<ul class="job-list">
-		<li v-for="job in filteredJobs">
-      <job-card v-bind:job="job"></job-card>
+		<h2 class="beerName">Beer Name:</h2>
+		<h3 class="foodPair">Foor Pairing:</h3>
+		<ul class="beer-list">
+		<li v-for="beer in filteredJobs">
+      <beer-card v-bind:job="job"></job-card>
     </li>
 	</ul>
 </div>
+		
+	</div>
+	
+	
   		
 	
                      
