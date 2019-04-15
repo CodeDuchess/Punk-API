@@ -1,42 +1,42 @@
 'use strict';
 
-Vue.component('job-card', {
-    props: ['job'],
-    template: '<div class="card"><h1>{{ job.title }}</h1><p>{{ this.jobDescription }}</p><p><small>{{ job.type }}</small></p></div>',
+Vue.component('beer-card', {
+    props: ['beer'],
+    template: '<div class="card"><h1>{{ beer.name }}</h1><p>{{ this.beerFood_pairing }}</p><p><small>{{ beer.type }}</small></p></div>',
     computed: {
-        jobDescription: function() {
+        beerFood_pairing: function() {
             
-            return this.job.description.substring(0, 300) + '...';
+            return this.job.food_pairing.substring(0, 100) + '...';
         }
     }
   });
 
   var vm = new Vue({
-	el:  "#jobs",
+	el:  "#beers",
 	data() { 
 	  return {
           apiData:[],
           search: '',
           filterType: [],
           
-          selectedType:"Full Time"
+          selectedType:"food_pairing"
         }
     },
       
     computed: {
-		filteredJobs: function() {
-			vm = this;
-			var type = vm.selectedType;
+	filteredbeers: function() {
+	vm = this;
+	var type = vm.selectedType;
 			
-			if(type == "Full Time") {
-				return vm.apiData;
-			} else {
-				return vm.apiData.filter(function(job) {
-					return job.type == type;
-				});
+	if(type == "food_pairing") {
+	   return vm.apiData;
+	} else {
+	  return vm.apiData.filter(function(beer) {
+	    return beer.type == type;
+		});
+              }
             }
-		}
-    },
+          },
 
     methods: { 
         getJobData: function() {
