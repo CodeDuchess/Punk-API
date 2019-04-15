@@ -180,11 +180,9 @@
      color: black;
       }
 
-     .table {
-      vertical-align: right;
-      width: 30%;
-      height: 30%;
-      }
+    .beerName, .foodPair {
+      font-size: 1.5rem;
+       }
 
     .card {
       display: relative;  
