@@ -34,7 +34,7 @@ Vue.component('beer-card', {
 				return vm.apiData;
 			} else {
 				return vm.apiData.filter(function(beer) {
-					return beer.abv == abv;
+					return beer.type == type;
 				});
             		     }
 			   }
