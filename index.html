@@ -65,22 +65,14 @@
       
       <!-- DIV for Vue.js filter -->
 	   <div class="container2" id="beers">
-	<div class="filter">
+	    <div v-for="beer in filtereBeers">
 		<h2 class="beerName">Beer Name:</h2>
 		<h3 class="foodPair">Foor Pairing:</h3>
-		<ul class="beer-list">
-		<li v-for="beer in filteredJobs">
-      <beer-card v-bind:job="job"></job-card>
-    </li>
-	</ul>
-</div>
-		
+		<beer-card v-bind:beer="beer"></beer-card>
+            </div>
 	</div>
 	
-	
-  		
-	
-                     
+	                    
         <!-- DIV FOR CARD DISPLAY -->
         <div id="root"></div>
                                        
