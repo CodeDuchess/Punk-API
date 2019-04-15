@@ -7,7 +7,7 @@ Vue.component('beer-card', {
     computed: {
         beerFood_pairing: function() {
             
-            return this.beer.food_pairing.substring(0, 100) + '...';
+            return this.beer.foodPairing.substring(0, 100) + '...';
         }
     }
   });
