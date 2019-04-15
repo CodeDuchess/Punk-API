@@ -92,7 +92,6 @@
      
      
    /* STYLING FOR JS CARD LAYOUT */ 
-    
     * {
       box-sizing: border-box;
        }
@@ -260,3 +259,13 @@
       font-size: 1.5rem;
        }
       
+ .card2 {
+      display: relative;  
+      margin: 1rem;
+      background: #333333;
+      box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: all .2s linear;
+      background-color: beige;
+        }
