@@ -169,7 +169,7 @@
      padding-top: 100px;
       }
 
-    /*CONTAINER FOR ABV*/
+    /*CONTAINER FOR VUE DATA - BEER & FOOD PAIRINGS*/
     .container2 {
      position: relative;
      top: 100px;
@@ -179,6 +179,10 @@
      flex-wrap: wrap;
      padding-top: 100px;
      color: black;
+      }
+
+     .table {
+      vertical-align: right;
       }
 
     .card {
