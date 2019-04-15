@@ -171,11 +171,11 @@
 
     /*CONTAINER FOR VUE DATA - BEER & FOOD PAIRINGS*/
     .container2 {
-     position: absolute;
+     position: relative;
      top: 100px;
      right: 5px;
      display: flex;
-     width: 1500px;
+     width: 50px;
      flex-wrap: wrap;
      padding-top: 100px;
      color: black;
