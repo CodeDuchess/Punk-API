@@ -1,10 +1,11 @@
 'use strict';
+
 var apiData = "";
 var filteredBeers= "";
 
 Vue.component('beer-card', {
     props: ['beer'],
-    template: '<div class="card"><h2>{{ beer.abv }}</h2><h3>{{ this.beerIbu }}</h3></div>',
+    template: '<div class="card"><h2>{{ beer.name }}</h2><h3>{{ this.beerIbu }}</h3><p><small>{{job.abv}}</small></p></div>',
     computed: {
         beerIbu: function() {
             return this.beer.ibu;
