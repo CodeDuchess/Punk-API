@@ -1,5 +1,5 @@
 'use strict';
-var fileredBeers ="";
+var filteredBeers ="";
 
 Vue.component('beer-card', {
     props: ['beer'],
