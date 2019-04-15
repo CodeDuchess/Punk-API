@@ -1,9 +1,9 @@
 'use strict';
 var filteredBeers ="";
 
-Vue.component('beer-card', {
+Vue.component('beer-card2', {
     props: ['beer'],
-    template: '<div class="card"><h1>{{ beer.name }}</h1><p>{{ this.beerFoodPairing }}</p><p><small>{{ beer.type }}</small></p></div>',
+    template: '<div class="card2"><h1>{{ beer.name }}</h1><p>{{ this.beerFoodPairing }}</p><p><small>{{ beer.type }}</small></p></div>',
     computed: {
         beerFood_pairing: function() {
             
