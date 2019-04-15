@@ -183,6 +183,8 @@
 
      .table {
       vertical-align: right;
+      width: 30%;
+      height: 30%;
       }
 
     .card {
