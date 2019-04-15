@@ -169,6 +169,17 @@
      padding-top: 100px;
       }
 
+    /*CONTAINER FOR ABV*/
+    .container2 {
+     position: relative;
+     top: 400px;
+     right: 5px;
+     display: flex;
+     width: 1500px;
+     flex-wrap: wrap;
+     padding-top: 100px;
+      }
+
     .card {
       display: relative;  
       margin: 1rem;
