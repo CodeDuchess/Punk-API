@@ -39,8 +39,8 @@ Vue.component('beer-card', {
           },
 
     methods: { 
-        getJobData: function() {
-            let url = 'https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?&markdown=true&page=1';
+        getBeerData: function() {
+            let url = 'https://cors-anywhere.herokuapp.com/https://api.punkapi.com/v2/beers';
             fetch( url,{
                 'headers': {
                   'Content-Type': 'application/json'
@@ -58,7 +58,7 @@ Vue.component('beer-card', {
 
     mounted: function() {
         this.$nextTick(function() {
-            this.getJobData();
+            this.getBeerData();
         });
     }
 
