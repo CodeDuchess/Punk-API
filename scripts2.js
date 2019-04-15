@@ -5,10 +5,10 @@ var filteredBeers= "";
 
 Vue.component('beer-card', {
     props: ['beer'],
-    template: '<div class="card"><h2>{{ beer.name }}</h2><h3>{{ this.beerIbu }}</h3><p><small>{{beer.type}}</small></p></div>',
+    template: '<div class="card"><h2>{{ beer.name }}</h2><h3>{{ this.food_pairing }}</h3><p><small>{{beer.type}}</small></p></div>',
     computed: {
-        beerIbu: function() {
-            return this.beer.ibu;
+        beerFood_pairing: function() {
+            return this.beer.food_pairing;
         }
     }
   });
@@ -21,7 +21,7 @@ Vue.component('beer-card', {
              search: '',
              filterType: [],
           
-             selectedType:"abv"
+             selectedType:"food_pairing"
         }
     },
       
@@ -30,7 +30,7 @@ Vue.component('beer-card', {
 			vm = this;
 			var type = vm.selectedType;
 			
-			if(type == "abv") {
+			if(type == "food_pairing") {
 				return vm.apiData;
 			} else {
 				return vm.apiData.filter(function(beer) {
