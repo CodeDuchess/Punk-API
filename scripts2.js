@@ -20,7 +20,7 @@ Vue.component('beer-card', {
           search: '',
           filterType: [],
           
-          selectedType:"food_pairing"
+          selectedType:"foodPairing"
         }
     },
       
@@ -29,7 +29,7 @@ Vue.component('beer-card', {
 	vm = this;
 	var type = vm.selectedType;
 			
-	if(type == "food_pairing") {
+	if(type == "foodPairing") {
 	   return vm.apiData;
 	} else {
 	  return vm.apiData.filter(function(beer) {
