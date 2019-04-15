@@ -261,33 +261,6 @@
     	padding: 8px 16px;
        }
 
-/* FILTER BY JOB TYPE */
-
-.cbContainer {
-   font-size: 1.2rem;
-   position: relative;
-   left: 775px; 
-   padding: 5px;
-   margin-left: 5px;
-   margin-right: 5px;
-   margin-top: 40px;
-   margin-bottom: 40px;
-   color: white;
-     }
-
-.checkbox {
-    position: relative;
-    margin-left: 8px;
-    margin-right: 8px;
-    text-align: center;
-    /* Double-sized Checkboxes */
-    -ms-transform: scale(2); /* IE */
-    -moz-transform: scale(2); /* FF */
-    -webkit-transform: scale(2); /* Safari and Chrome */
-    -o-transform: scale(2); /* Opera */
-    padding: 20px;
-    color: white;
-     }
 
   userInput1, userInput2 {
     font-size: 1.5rem;
