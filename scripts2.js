@@ -1,4 +1,5 @@
 'use strict';
+var fileredBeers ="";
 
 Vue.component('beer-card', {
     props: ['beer'],
