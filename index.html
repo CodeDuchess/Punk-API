@@ -70,16 +70,17 @@
       	    <th scope="col">#</th>
             <th scope="col">Beer Name:</th>
             <th scope="col">Food Pairing:</th>
+	      <ul class="beer-list">
+	   	<li v-for="beer in filteredBeers">
+      	       <beer-card v-bind:beer="beer"></beer-card>
+           </li>
+	</ul>
+      </div         
          </tr>
       </thead>
      
   		
-	<ul class="beer-list">
-	   <li v-for="beer in filteredBeers">
-      	       <beer-card v-bind:beer="beer"></beer-card>
-           </li>
-	</ul>
-      </div>
+	
                      
         <!-- DIV FOR CARD DISPLAY -->
         <div id="root"></div>
