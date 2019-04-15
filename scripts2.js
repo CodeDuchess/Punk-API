@@ -25,7 +25,7 @@ Vue.component('beer-card', {
     },
       
     computed: {
-	filteredbeers: function() {
+	filteredBeers: function() {
 	vm = this;
 	var type = vm.selectedType;
 			
