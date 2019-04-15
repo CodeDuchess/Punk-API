@@ -5,7 +5,7 @@ var filteredBeers= "";
 
 Vue.component('beer-card', {
     props: ['beer'],
-    template: '<div class="card"><h2>{{ beer.name }}</h2><h3>{{ this.food_pairing }}</h3><p><small>{{beer.type}}</small></p></div>',
+    template: '<div class="conatiner2"><h2>{{ beer.name }}</h2><h3>{{ this.food_pairing }}</h3><p><small>{{beer.type}}</small></p></div>',
     computed: {
         beerFood_pairing: function() {
             return this.beer.food_pairing;
