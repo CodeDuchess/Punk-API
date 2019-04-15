@@ -170,8 +170,6 @@
       }
 
  
-
-
     .card {
       display: relative;  
       margin: 1rem;
@@ -226,13 +224,6 @@
       /* THIS SHADE IS WHITE SMOKE */
       color: #F5F5F5;
         }
-
-    .container2 {
-    	padding: 20px;
-    	width: 90%;
-    	max-width: 400px;
-    	margin: 0 auto;
-      }
 
     label {
     	display: block;
