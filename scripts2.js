@@ -21,7 +21,7 @@ Vue.component('beer-card', {
              search: '',
              filterType: [],
           
-             selectedType:"beer abv"
+             selectedType:"abv"
         }
     },
       
@@ -30,7 +30,7 @@ Vue.component('beer-card', {
 			vm = this;
 			var type = vm.selectedType;
 			
-			if(type == "beer abv") {
+			if(type == "abv") {
 				return vm.apiData;
 			} else {
 				return vm.apiData.filter(function(beer) {
