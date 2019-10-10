@@ -1,1 +1,272 @@
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+ /* CONTROLS THE CARDS WHICH WERE STYLED WITHOUT BOOTSTRAP */
+    #root {
+      max-width: 700px;
+   /* PERFECT MARGIN FOR THREE CARDS PER ROW */  
+      margin: 35px;
+      margin-left: 15px;
+      }
+
+    body{
+        font-family: Arial; 
+        }
+
+      /* BOOTSTRAP JUMBOTRON STYLING */
+
+     .jumboHeaderImg {
+         background-image: url("beer_cheers.jpg");
+         background-size: cover;
+         background-position: center center;
+         height: 600px;
+        }
+
+     /* THIS IS THE <H2> IN THE JUMBOTRON */
+    .display-4 {
+        text-align: center;
+        left: 10px;
+        border-radius: 8px;
+        padding: 10px;
+        font-family: Impact;
+        color: maroon;
+        background-color: beige;
+        }
+
+    .display-5 {
+        position: relative;
+        left: 10px;
+        padding: 10px;
+        }
+
+    .search {
+      width: 100%;
+      position: relative;
+      top: 250px;  
+      }
+
+    .searchTerm {
+      position: relative;
+      top: 80px;  
+      float: left;
+      width: 100%;
+      border: 3px solid #d33321;
+      padding: 5px;
+      height: 42px;
+      border-radius: 5px;
+      outline: none;
+      color: #6b0413; 
+      }
+
+    .searchTerm:focus{
+      /* COLOR IS A MAROON SHADE */  
+      color: #6b0413;
+      }
+
+    .button1 {
+      position: absolute;  
+      top: 95px;  
+      right: -50px;
+      width: 75px;
+      height: 36px;
+      text-align: center;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 20px;
+      }
+
+    /*CHANGE SEARCH BAR DIMENSIONS HERE */
+    .wrap {
+      position: relative;
+      left: 50%;
+      top: 5px;
+      transform: translate(-50%, -50%);
+      width: 50%; 
+       }
+
+     input {
+       font-size: 14px;
+       color: white;
+       }
+
+     
+     
+   /* STYLING FOR JS CARD LAYOUT */ 
+    * {
+      box-sizing: border-box;
+       }
+
+    html {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-family: 'Dosis', sans-serif;
+      line-height: 1.6;
+      background-color: beige;
+         }
+
+   
+    h1 {
+      text-align: center;
+      padding: 1rem 2rem;
+      /* THIS SHADE IS BROWN */  
+      background-color: #752c05;
+      margin: 0 0 2rem 0;
+      font-size: 1.5rem;
+      color: white;
+      }
+ 
+    h2 {
+     font-size: .5rem; 
+     color: black;
+      }
+
+    h3, h4 {
+      position: relative;
+      padding: 15px;  
+      line-height: .5;
+      top: 5px;
+      left: 56px;
+      color: black;
+    
+        }
+
+    h5 {
+      position: relative;
+      top: 0px;
+      left: 43px;
+      right: 15px;
+      bottom: 25px;  
+      margin: 6px;
+      color: #F5F5F5;
+       }
+
+    p {
+      padding: 0 5rem 1.5rem;
+      margin: 0;
+      color: black;
+     /* BEIGE WITH ORANGE TINT */
+      background-color: #FFE7BA	;
+      font-weight: bold;  
+        }
+
+     /* THIS ALIGNS THE CARDS - 1 PER LINE, CENTERED 
+     .container{
+      position: relative; 
+      left: 20px;
+      top: 100px;  
+      flex-wrap: wrap;
+      padding: 20px;
+      } */
+
+     /*THIS ALIGNS THE CARDS SIDE BY SIDE (THREE ON A LINE)*/
+    .container1 {
+     position: relative;
+     top: 400px;
+     display: flex;
+     width: 1800px;
+     flex-wrap: wrap;
+     padding-top: 100px;
+      }
+
+ 
+    .card {
+      display: relative;  
+      margin: 1rem;
+      background: #333333;
+      box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: all .2s linear;
+      background-color: beige;
+        }
+
+    .card:hover {
+      box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+      transform: translate3D(0, -2px, 0);
+        }
+
+      /* USE MEDIA SCREEN FOR RESONSIVE WEB DESIGN ON DESKTOPS, LAPTOPS, TABLETS AND MOBILE PHONES */
+       @media screen and (min-width: 600px) {
+      .card {
+        flex: 1 1 calc(50% - 2rem);
+        border-radius: 20px;
+        padding: 15px;
+          }
+        }
+
+     /* USE MEDIA SCREEN FOR RESONSIVE WEB DESIGN ON DESKTOPS, LAPTOPS, TABLETS AND MOBILE PHONES */
+    @media screen and (min-width: 900px) {
+      .card {
+        flex: 1 1 calc(33% - 2rem);
+        border-radius: 20px;
+        padding: 15px;
+          }
+         }
+
+    .card:nth-child(2n) h1 {
+      /*BROWN */  
+      background-color: #752c05;
+      /* THIS SHADE IS WHITE SMOKE */
+      color: #F5F5F5 ;
+       }
+
+    .card:nth-child(4n) h1 {
+     /* BROWN */  
+      background-color: #752c05;
+      /* THIS SHADE IS WHITE SMOKE */
+      color: #F5F5F5;
+       }
+
+    .card:nth-child(5n) h1 {
+      /* BROWN */  
+      background-color: #752c05;
+      /* THIS SHADE IS WHITE SMOKE */
+      color: #F5F5F5;
+        }
+
+    label {
+    	display: block;
+    	line-height: 1.5em;
+     }
+
+    ul {
+    	margin-left: 0;
+    	padding-left: 0;
+    	list-style: none;
+      }
+
+    li {
+    	padding: 8px 16px;
+       }
+
+
+  userInput1, userInput2 {
+    font-size: 1.5rem;
+     }
+
+   /*CONTAINER FOR VUE DATA - BEER & FOOD PAIRINGS*/
+    .container2 {
+     position: relative;
+     top: 10px;
+     right: 5px;
+     display: flex;
+     width: 50px;
+     flex-wrap: wrap;
+     color: black;
+      }
+
+    .beerName, .foodPair {
+      font-size: 1.5rem;
+       }
+      
+ .card2 {
+      display: relative;  
+      margin: 1rem;
+      background: #333333;
+      box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: all .2s linear;
+      background-color: beige;
+        }
