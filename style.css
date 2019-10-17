@@ -159,11 +159,6 @@
       padding: 20px;
       } */
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
      /*THIS ALIGNS THE CARDS SIDE BY SIDE (THREE ON A LINE)*/
     .container1 {
      position: relative;
@@ -172,6 +167,7 @@
      width: 1800px;
      flex-wrap: wrap;
      padding-top: 100px;
+     padding-left: 150px;
       }
 
     .card {
